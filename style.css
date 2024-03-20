@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sidebar{
+    background-color: lightgrey;
+    /* width: 210px; */
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+.sidebar nav{
+    padding: 35px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.sidebar li a{
+    text-decoration: none;
+    color: black;
+}
+.sidebar li a:hover{
+    color:dodgerblue;
+
+}
+.main{
+    /* background-color: yellow; */
+    width: 100%;
+    height: 100%;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color:pink; */
+    height: 47vh;
+    width: 80vw;
+    margin: 147px auto;
+    display: flex;
+
+    
+     padding-bottom: 45px; 
+    justify-content: space-around;
+}
+.devpic img{
+    width: 200px;
+    padding-right: 150px;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    display: table-column; 
+    /* background-color: green; */
+     padding: 45px 0px 0px 45px;
+
+}
+.hello{
+     font-size: 40px;
+     padding: 5px;
+     
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+}
+.about{
+    font-size: 24px;
+}
+.btn {
+    padding: 16px;
+    text-decoration: none;
+}
+.btn button{
+    padding: 7.5px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn button:hover{
+    background-color:blueviolet;
+    color: aliceblue;
+    text-decoration: none;
+}
+/* .btn button a{
+    text-decoration: none;
+    color: black;
+} */
+.moreabout{
+    padding: 6px;
+}
+
+/* contact.css */
+
+.contactform{
+font-family: Arial, Helvetica, sans-serif;
+padding: 80px 25px;
+margin: 0px 100px;
+}
+
+.contactform h1{
+text-align: center;
+/* padding-bottom: 40px; */
+margin-bottom: 35px;
+margin-right: 307px
+}
+.contactform  form div{
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+.contactform  form div input{
+ width: 30vw;
+ border-radius: 5px;
+ margin: 6px 0;
+ padding: 3px;
+}
+
+
+#emailHelp{
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0px 5px;
+}
+#form-check {
+    flex-direction: row;
+
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.btn-submit{
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 14px;
+    width: 100px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    background-color:lightgray;
+}
+.btn-submit:hover{
+background-color: blueviolet;
+color: aliceblue;
+}
+
+/* blog.css */
+.blogitem {
+
+    margin: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.blogcontainer{
+    margin: 0px 120px;
+}
+.blogcontainer h1{
+margin: 50px;
+text-align: center;
+margin-bottom: 35px;
+}
+.blogitem p{
+font-family: sans-serif;
+}
+.btn-blog{
+    padding: 5px;
+    border-radius: 7px;
+    margin-top: 10px;
+    background-color: dodgerblue;
+    color: aliceblue;
+}
+.btn-blog:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+/* intro.css */
+.intro{
+    margin: 100px;
+    
+}
+.intro h2{
+    font-family: sans-serif;
+    margin: 12px;
+}
+.intro p{
+    font-family: monospace;
+    font-size: 16px;
+margin: 12px;
+}
+.skillcontainer{
+    padding: 12px;
+ }
+ 
+.skillitem{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.skills{
+    width:  265px;
+    height: 6px;
+    /* background-color: red; */
+    border: 1px solid black;
+    
+}
+.hunderd{
+    width: 350px;
+    background-color: red;
+}
+.thirty{
+    width: 135px;
+    background-color: lawngreen;
+}
+.twentyfive{
+    width: 120px;
+    background-color: magenta;
+}
+.ten{
+    width: 90px;
+    background-color: maroon;
+}
+.fifty{
+   width: 175px;
+   background-color: yellowgreen;
+}
+.sidebargo{
+    transform: translate(-400px,0px);
+    position: absolute;
+}
+.wing{
+margin-left: 120px;
+}
+
+@media (max-width:1230px) {
+    *{
+    
+    }
+    .devpic{
+        display: none;
+    }
+    
+}
+
+/* symbols.css */
+.hamberger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
